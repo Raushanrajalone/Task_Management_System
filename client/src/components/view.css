@@ -1,0 +1,97 @@
+.view-tasks {
+  padding: 20px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for task time and name */
+.task-time {
+  font-size: 14px;
+  color: #555;
+}
+
+.task-time strong {
+  font-size: 18px;
+  color: #000;
+}
+
+.task-name {
+  font-size: 20px;
+  margin-top: 5px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.task-name:hover {
+  text-decoration: underline;
+}
+
+/* Styling for task description */
+.task-description {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styling for the action buttons container (Mark as Done & Delete) */
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Styling for the Mark as Done button */
+.task-actions .done-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #28a745; /* Green color for the done button */
+  font-size: 24px;
+  padding: 0;
+}
+
+.task-actions .done-btn:hover {
+  color: #218838; /* Darker green on hover */
+}
+
+/* Styling for the Delete button */
+.task-actions .delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff0000; /* Red color for the delete button */
+  font-size: 24px;
+  padding: 0;
+}
+
+.task-actions .delete-btn:hover {
+  color: #cc0000; /* Darker red on hover */
+}
+
+/* Additional styling for completed tasks */
+.task-item.done .task-name {
+  text-decoration: line-through; /* Strike-through for completed tasks */
+  color: #6c757d; /* Grey color for completed tasks */
+}
+
+.task-item.done .task-time strong {
+  color: #6c757d;
+}

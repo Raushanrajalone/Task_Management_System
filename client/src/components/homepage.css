@@ -1,0 +1,87 @@
+/* homepage.css */
+
+.header {
+    background-color: #53f2a8;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header h1 {
+    margin: 0;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .user-name {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .logout-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .logout-btn:hover {
+    background-color: #ee5a52;
+  }
+  
+  .navbar {
+    background-color: #008080;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin: 0 15px;
+  }
+  
+  .navLink {
+    color: #ece947;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .navLink:hover{
+   color: rgb(102, 46, 205);
+  }
+  
+  .content {
+    padding: 20px;
+    min-height: 60vh;
+    background-image: url('../images/ois.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Ensure text is readable on the background */
+  }
+  
+  
+  .footer {
+    background-color: #7a29d6;
+    padding: 10px;
+    text-align: center;
+  }
+  

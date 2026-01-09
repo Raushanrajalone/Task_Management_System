@@ -1,0 +1,89 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../images/ois.jpeg');
+
+}
+
+.signup-box {
+  background: rgb(161, 196, 197);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-box h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.signup-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signup-box input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.signup-box input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.signup-box button {
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signup-box button:hover:not(:disabled) {
+  background: #764ba2;
+}
+
+.signup-box button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.signup-box p {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+.signup-box a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-box a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #f5c6cb;
+}
